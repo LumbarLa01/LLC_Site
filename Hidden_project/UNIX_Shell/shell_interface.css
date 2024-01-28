@@ -1,0 +1,45 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+#output {
+    height: 300px;
+    overflow-y: auto;
+    background-color: #000;
+    padding: 10px;
+    border: 1px solid #555;
+    color: #0f0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #222;
+    border: 1px solid #555;
+    color: #0f0;
+    font-size: 16px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #5f5;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #5f5;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #5f5;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #888;
+}
